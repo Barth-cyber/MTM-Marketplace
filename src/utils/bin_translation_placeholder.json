@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "language_code": "bin",
+    "language_name": "Bini",
+    "native_name": "Ẹ̀dó / Isang",
+    "region": "Benin Kingdom, Edo State, Nigeria",
+    "status": "Localization Placeholder for future translation efforts"
+  },
+  "translations": {
+    "nav": {
+      "home": "Kona (Home)",
+      "catalog": "Ghe Iwinna (Browse Machinery)",
+      "categories": "Ehe Iwinna (All Categories)",
+      "deals": "Ego Ne Otọ (Liquidation Lots)",
+      "services": "Ẹvbo Na Ghe Iwiẹ (Inspections & Freight)",
+      "trends": "Emwi Ne O rre Ekama (Smart Trends)",
+      "leaderboard": "Ne Gbe-Ekpen Eseller (Seller Leaderboard)",
+      "about": "Gbe MTM (About MTM)",
+      "sell": "Khonmwan Iwinna (Sell Machine / Post Lot)",
+      "account": "Egbẹe Na Re/Dẹ (Buyer & Seller Portal)",
+      "agent": "Agbada MTM AI (MTM AI Agent)",
+      "qrScanner": "Scan QR Code (QR Scanner)",
+      "quickReorder": "Dẹ Kakabọ Kakabọ (Quick Reorder)"
+    },
+    "search": {
+      "placeholder": "Ghe ẹvbo ne rre Edo, Lagos, SCM Saw... (Search industrial machines, parts...)"
+    },
+    "escrow": {
+      "shield": "100% Escrow Ake-Okpan Awan (100% Escrow Protection Guaranteed)"
+    },
+    "reorder": {
+      "title": "Dẹ Kaka Iwinna Spares & Glue (Quick Reorder Consumables & Spares)",
+      "subtitle": "Pia ọgbọ na dẹ glue pellets, saw blades, edge tapes, vbe spares kakabọ. (1-Click replenishment)",
+      "addToCart": "Yọ rre Escrow Cart (Add to Escrow Cart)",
+      "instantReorder": "Dẹ Kakabọ Yanzu (Instant Reorder)",
+      "bulkDiscount": "O rre Ego Otọ (Bulk Discount Active)"
+    },
+    "qr": {
+      "title": "Industrial Asset & Escrow QR Scanner",
+      "subtitle": "Scan physical machine diagnostic plates, escrow tracking codes, or verified seller certification tags."
+    },
+    "leaderboard": {
+      "title": "Eseller Rank vbe Edo, Lagos",
+      "subtitle": "Amana, Escrow a ke okpan gbegbe. (Ranked by escrow performance)"
+    },
+    "agent": {
+      "title": "Agbada MTM Assistant",
+      "alert": "Eho Iwinna Alert",
+      "voice": "Zẹ oviọhẹ"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MTM - Marketplace",
+  "description": "AI-powered multi-vendor industrial marketplace for machines, tools, and industrial materials. Buy, sell, inspect, negotiate, and equip.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

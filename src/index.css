@@ -1,0 +1,337 @@
+@import "tailwindcss";
+
+/* ── MTM COLOR THEME: LIGHT-HORSE BLOOD, SHINY SILVER & DARK-GRAY ── */
+:root {
+  --color-primary-brand: #8B1520;
+  --color-primary-brand-hover: #72111A;
+  --color-brand-accent: #A61D2B;
+  
+  --color-dark-gray-950: #0B0F17;
+  --color-dark-gray-900: #0F172A;
+  --color-dark-gray-800: #1E293B;
+  --color-dark-gray-700: #334155;
+  --color-dark-gray-600: #475569;
+  
+  --color-silver-50: #F8FAFC;
+  --color-silver-100: #F1F5F9;
+  --color-silver-200: #E2E8F0;
+  --color-silver-300: #CBD5E1;
+  --color-silver-400: #94A3B8;
+}
+
+::selection {
+  background-color: #8B1520 !important;
+  color: #FFFFFF !important;
+}
+
+/* ── GLOBAL FOUNDATION: CLEAN INDUSTRIAL LIGHT SILVER CANVAS ── */
+html,
+body,
+#root {
+  background-color: #F8FAFC;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 40%, #F1F5F9 100%);
+  background-attachment: fixed;
+  color: #0F172A;
+  min-height: 100vh;
+}
+
+/* ── METALLIC SILVER CARDS & SURFACES ── */
+.silver-metallic-card {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 60%, #F1F5F9 100%) !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.silver-metallic-card-subtle {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+}
+
+.silver-brushed-header {
+  background: linear-gradient(90deg, #E2E8F0 0%, #F1F5F9 50%, #E2E8F0 100%);
+  color: #0F172A;
+}
+
+/* ── REAL STAINLESS INDUSTRIAL METAL IRON BUTTONS ── */
+.btn-3d-stainless {
+  position: relative;
+  background: linear-gradient(180deg, #F8FAFC 0%, #E2E8F0 14%, #CBD5E1 32%, #94A3B8 48%, #64748B 52%, #94A3B8 65%, #CBD5E1 84%, #E2E8F0 100%) !important;
+  color: #0F172A !important;
+  border: 1px solid #64748B !important;
+  border-top: 1px solid #FFFFFF !important;
+  border-bottom: 2px solid #334155 !important;
+  box-shadow: 
+    0 2px 4px -1px rgba(15, 23, 42, 0.35), 
+    inset 0 1px 1px rgba(255, 255, 255, 0.95), 
+    inset 0 -1.5px 2px rgba(15, 23, 42, 0.22) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  font-weight: 800 !important;
+  letter-spacing: -0.01em;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-3d-stainless:hover {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F1F5F9 15%, #E2E8F0 32%, #A3B1C2 48%, #475569 52%, #8392A5 65%, #CBD5E1 82%, #F1F5F9 100%) !important;
+  color: #020617 !important;
+  border-color: #475569 !important;
+  border-top-color: #FFFFFF !important;
+  border-bottom-color: #1E293B !important;
+  box-shadow: 
+    0 4px 10px -1px rgba(15, 23, 42, 0.45), 
+    inset 0 1.5px 2px rgba(255, 255, 255, 1), 
+    inset 0 -1.5px 3px rgba(15, 23, 42, 0.28) !important;
+  transform: translateY(-1px);
+}
+
+.btn-3d-stainless:active {
+  background: linear-gradient(180deg, #94A3B8 0%, #64748B 40%, #94A3B8 100%) !important;
+  color: #020617 !important;
+  box-shadow: 
+    0 1px 2px rgba(15, 23, 42, 0.4),
+    inset 0 2px 4px rgba(15, 23, 42, 0.35) !important;
+  transform: translateY(1px);
+}
+
+/* ── 3D DARK METAL (CONVERTED TO SLEEK LIGHT BRUSHED STAINLESS STEEL) ── */
+.btn-3d-dark-metal {
+  position: relative;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 20%, #E2E8F0 50%, #CBD5E1 52%, #E2E8F0 75%, #F8FAFC 100%) !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  border-top-color: #FFFFFF !important;
+  border-bottom-color: #94A3B8 !important;
+  box-shadow: 
+    0 2px 4px -1px rgba(15, 23, 42, 0.1), 
+    inset 0 1px 1px rgba(255, 255, 255, 0.95), 
+    inset 0 -1.5px 2px rgba(15, 23, 42, 0.08) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  font-weight: 800 !important;
+  letter-spacing: -0.01em;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-3d-dark-metal:hover {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 25%, #E2E8F0 50%, #CBD5E1 52%, #E2E8F0 75%, #FFFFFF 100%) !important;
+  color: #8B1520 !important;
+  border-color: #94A3B8 !important;
+  border-top-color: #FFFFFF !important;
+  box-shadow: 
+    0 4px 8px -1px rgba(15, 23, 42, 0.15), 
+    inset 0 1.5px 2px rgba(255, 255, 255, 1) !important;
+  transform: translateY(-1px);
+}
+
+.btn-3d-dark-metal:active {
+  background: linear-gradient(180deg, #CBD5E1 0%, #94A3B8 50%, #CBD5E1 100%) !important;
+  box-shadow: 
+    0 1px 2px rgba(15, 23, 42, 0.2),
+    inset 0 2px 4px rgba(15, 23, 42, 0.2) !important;
+  transform: translateY(1px);
+}
+
+/* Floating VR Mode Button (Clean Silver with Light Horse Blood Accent) */
+.btn-floating-vr-glowing {
+  position: relative;
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1.5px solid #8B1520 !important;
+  box-shadow: 0 4px 12px -2px rgba(139, 21, 32, 0.2) !important;
+  backdrop-filter: blur(12px);
+  font-weight: 800 !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-floating-vr-glowing:hover {
+  transform: translateY(-1px);
+  border-color: #72111A !important;
+  background: #F8FAFC !important;
+  color: #8B1520 !important;
+}
+
+/* 3D Stainless Button with Light Horse Blood Accent */
+.btn-3d-stainless-accent {
+  position: relative;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 12%, #E2E8F0 38%, #CBD5E1 50%, #94A3B8 52%, #E2E8F0 75%, #F8FAFC 92%, #CBD5E1 100%) !important;
+  color: #0F172A !important;
+  border: 1.5px solid #8B1520 !important;
+  border-top-color: #FFFFFF !important;
+  box-shadow: 
+    0 2px 6px -1px rgba(139, 21, 32, 0.25), 
+    inset 0 1.5px 1px rgba(255, 255, 255, 0.95), 
+    inset 0 -1.5px 2px rgba(139, 21, 32, 0.15) !important;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+  font-weight: 800 !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-3d-stainless-accent:hover {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 15%, #F1F5F9 35%, #E2E8F0 50%, #CBD5E1 52%, #E2E8F0 75%, #FFFFFF 95%, #F1F5F9 100%) !important;
+  color: #8B1520 !important;
+  border-color: #72111A !important;
+  box-shadow: 
+    0 4px 10px -1px rgba(139, 21, 32, 0.35), 
+    inset 0 2px 2px rgba(255, 255, 255, 1) !important;
+  transform: translateY(-1px);
+}
+
+/* ── HORSE BLOOD COLOR GRADIENT BUTTONS (HERO PALETTE: #48060C -> #7A101A -> #D83A46) ── */
+.btn-horse-blood,
+.btn-horse-blood-gradient {
+  background: linear-gradient(135deg, #48060C 0%, #7A101A 50%, #D83A46 100%) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(216, 58, 70, 0.4) !important;
+  box-shadow: 0 4px 14px -2px rgba(72, 6, 12, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.25) !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-horse-blood:hover,
+.btn-horse-blood-gradient:hover {
+  background: linear-gradient(135deg, #380409 0%, #630C15 50%, #B82531 100%) !important;
+  box-shadow: 0 6px 18px -2px rgba(72, 6, 12, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.35) !important;
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+.btn-horse-blood:active,
+.btn-horse-blood-gradient:active {
+  background: linear-gradient(135deg, #2E0307 0%, #520910 50%, #9C1F29 100%) !important;
+  box-shadow: 0 2px 6px rgba(72, 6, 12, 0.35) !important;
+  transform: translateY(1px);
+}
+
+/* Strategic Section (Light Slate Silver with Horse Blood Accent) */
+.strategic-horse-blood {
+  background-color: #FFFFFF !important;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%) !important;
+  color: #0F172A !important;
+  border: 1.5px solid #8B1520 !important;
+}
+
+/* ── UNIVERSAL EXTENDABLE DIALOG BOX / MODAL WINDOW CONSTRAINTS ── */
+.dialog-overlay,
+div[class*="fixed"][class*="inset-0"]:not(.drawer-backdrop):not(#mobile-nav-overlay):not(.sidebar-backdrop) {
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+  padding: 0.75rem !important;
+  padding-right: max(1rem, env(safe-area-inset-right)) !important;
+  padding-bottom: max(1rem, env(safe-area-inset-bottom)) !important;
+  overflow: hidden !important;
+}
+
+@media (min-width: 640px) {
+  div[class*="fixed"][class*="inset-0"]:not(.drawer-backdrop):not(#mobile-nav-overlay):not(.sidebar-backdrop) {
+    padding: 1.25rem !important;
+    padding-right: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+}
+
+/* Extendable dialog windows with clean Light Silver / White surface */
+div[class*="fixed"][class*="inset-0"]:not(#mobile-nav-overlay) > div:not([class*="fixed"]):not([class*="absolute inset-0"]):not([aria-hidden="true"]),
+[role="dialog"] {
+  max-width: 98vw !important;
+  max-height: 96vh !important;
+  width: min(620px, 94vw);
+  height: min(480px, 75vh);
+  margin: 0 !important;
+  margin-left: auto !important;
+  margin-top: auto !important;
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #CBD5E1 !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.08) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: auto !important;
+  resize: both !important;
+  min-width: 300px !important;
+  min-height: 200px !important;
+  position: relative !important;
+}
+
+@media (max-width: 640px) {
+  div[class*="fixed"][class*="inset-0"]:not(#mobile-nav-overlay) > div:not([class*="fixed"]):not([class*="absolute inset-0"]):not([aria-hidden="true"]),
+  [role="dialog"] {
+    max-width: 98vw !important;
+    max-height: 96vh !important;
+    width: 94vw;
+    height: min(420px, 70vh);
+    border-radius: 0.75rem !important;
+  }
+}
+
+/* Customize webkit resize handle */
+div[class*="fixed"][class*="inset-0"]:not(#mobile-nav-overlay) > div:not([class*="fixed"]):not([class*="absolute inset-0"]):not([aria-hidden="true"])::-webkit-resizer,
+[role="dialog"]::-webkit-resizer {
+  background-color: #E2E8F0 !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cpolygon points='2,28 28,28 28,2' fill='%23CBD5E1' fill-opacity='0.95' stroke='%2394A3B8' stroke-width='1.2' stroke-linejoin='round'/%3E%3Cpolygon points='10,28 28,28 28,10' fill='%2394A3B8' fill-opacity='0.4'/%3E%3Cline x1='7' y1='7' x2='21' y2='21' stroke='%231E293B' stroke-width='2.4' stroke-linecap='round'/%3E%3Cpolyline points='13,7 7,7 7,13' fill='none' stroke='%231E293B' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpolyline points='15,21 21,21 21,15' fill='none' stroke='%231E293B' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom right !important;
+  background-size: 24px 24px !important;
+  border-radius: 0 0 1rem 0 !important;
+}
+
+/* Universal Visible Interactive Triangular Resize Handle on Bottom-Right */
+.modal-corner-resizer {
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  width: 28px !important;
+  height: 28px !important;
+  cursor: nwse-resize !important;
+  z-index: 100 !important;
+  touch-action: none !important;
+  user-select: none !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+  pointer-events: auto !important;
+}
+
+.modal-corner-resizer svg {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15)) !important;
+  transition: transform 0.15s ease, filter 0.15s ease !important;
+}
+
+.modal-corner-resizer:hover svg {
+  transform: scale(1.08) !important;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.25)) !important;
+}
+
+.modal-corner-resizer:active svg {
+  transform: scale(0.95) !important;
+}
+
+/* Ensure all dialog close buttons are always visible at the top-right corner */
+div[class*="fixed"][class*="inset-0"] button[title*="Close"],
+div[class*="fixed"][class*="inset-0"] button[aria-label*="Close"],
+[role="dialog"] button[title*="Close"],
+[role="dialog"] button[aria-label*="Close"],
+#close-cart-modal-btn,
+#close-detail-modal-btn,
+#close-market-trends-modal-btn,
+#close-price-alert-modal-btn,
+#close-demo-video-modal-btn,
+#iot-modal-close-btn {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 50 !important;
+}
+
+div[class*="fixed"][class*="inset-0"]:not(#mobile-nav-overlay) > div:not([class*="fixed"]):not([class*="absolute inset-0"]):not([aria-hidden="true"]) > div.overflow-y-auto,
+div[class*="fixed"][class*="inset-0"]:not(#mobile-nav-overlay) > div:not([class*="fixed"]):not([class*="absolute inset-0"]):not([aria-hidden="true"]) div[class*="overflow-y-auto"],
+[role="dialog"] div[class*="overflow-y-auto"] {
+  flex: 1 1 auto !important;
+  max-height: 100% !important;
+  scrollbar-width: thin;
+}

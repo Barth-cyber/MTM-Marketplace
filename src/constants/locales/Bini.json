@@ -1,0 +1,33 @@
+{
+  "industrial_terminology": {
+    "heavy_machinery": "Ẹma-Iwinna Ne Kpọlọ (Heavy Machinery)",
+    "spare_parts": "Ivbiyeke-Inji (Spare Parts / Machine Parts)",
+    "escrow_protection": "Uyi-Ake-Okpan Awan (Escrow Money Protection)",
+    "woodworking": "Iwinna-Erhan (Woodworking / Timber Craft)",
+    "panel_saw": "Ẹzarto Ne Ohe (Panel Saw)",
+    "edgebander": "Ẹkpa-Ẹkpẹ Erhan (Edgebander / Edgetaping Machine)",
+    "hot_melt_adhesive": "Dankọn Ne Domwọ (Hot Melt Adhesive / Wood Glue)",
+    "certified_inspection": "Igheghe Na Khọnmwan (Certified Machine Inspection)",
+    "industrial_hub": "Ẹgbẹe-Iwinna (Industrial Hub / Depot)",
+    "buyer_portal": "Ẹhe Na Dẹ Kaka (Buyer Portal)",
+    "seller_leaderboard": "Ẹgbe Eseller Ne Gbe-Ekpen (Top Seller Leaderboard)",
+    "freight_assisted": "Ẹva Na Bẹtẹ (Freight Assisted Logistics)",
+    "inspected_and_tested": "Eghian Ne A Ghe Gbegbe (Inspected & Tested)",
+    "safety_equipment": "Igba-Egbe Awan (Safety Equipment)",
+    "hydraulic_press": "Inji-Ẹpiana Hydraulic (Hydraulic Press)",
+    "spindle_moulder": "Ẹmoulder Spindle (Spindle Moulder)",
+    "dust_extractor": "Inji-Ukhunmwu-Obọ (Dust Extractor / Vacuum)",
+    "saw_blade": "Ika-Zarto (Saw Blade / Cutting Tool)",
+    "technical_specifications": "Emwi Ne Rre Eko-Inji (Technical Specs)",
+    "factory_clearance": "Ake-Ego-Otọ Factory (Factory Clearance / Liquidation)"
+  },
+  "ui_phrases": {
+    "welcome_message": "Ob\'okhian rre MTM Depot (Welcome to MTM Depot)",
+    "secure_payment": "Okpan Awan Gbegbe (100% Secured Escrow)",
+    "view_details": "Ghe Eko-Inji (View Technical Details)",
+    "contact_seller": "Zẹ Oviọhẹ Ne Eseller (Contact Seller)",
+    "negotiate_price": "Zẹ Ego Kotọ (Negotiate Price)",
+    "inspection_score": "Audited Score Ne O Gbe",
+    "delivery_guaranteed": "Efe-Okpan Ne O Re Gbegbe (Guaranteed Delivery)"
+  }
+}
